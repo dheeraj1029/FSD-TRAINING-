@@ -1,0 +1,58 @@
+body {
+    background: #f6f8fa;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+.container {
+    max-width: 340px;
+    margin: 60px auto;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.10);
+    padding: 28px 32px 32px 32px;
+}
+header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+    gap: 14px;
+}
+.logo {
+    width: 40px;
+    height: 40px;
+}
+.counter-box {
+    text-align: center;
+}
+#count-display {
+    font-size: 50px;
+    font-weight: bold;
+    margin: 20px 0 10px 0;
+}
+.button-row {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 18px;
+}
+button {
+    width: 44px;
+    height: 44px;
+    font-size: 2rem;
+    border: none;
+    border-radius: 6px;
+    background: #166ffa;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+button:disabled {
+    background: #b0ccfb;
+    cursor: not-allowed;
+}
+#limit-message {
+    color: #ed3246;
+    height: 22px;
+    margin-top: 6px;
+    font-size: 1.1rem;
+}
