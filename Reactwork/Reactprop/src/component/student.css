@@ -1,0 +1,24 @@
+.heading{
+    font-size: 50px;
+}
+span{
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 100;
+}
+.container{
+    background-color: rgb(42, 142, 230);
+    border:1px solid black;
+    padding:10px;
+    box-shadow: 10px 10px 0px 0px ;
+
+}
+h1{
+    
+}
+.box{
+    padding-left: 20px;
+    background-color: red;
+    border: 1px solid black;
+    border-radius: 10px;
+}
