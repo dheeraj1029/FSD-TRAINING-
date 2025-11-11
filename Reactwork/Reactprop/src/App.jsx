@@ -1,42 +1,53 @@
 import './App.css'
-import Student from './component/student'
-function App(){
+import ImageManipulation from './component/imagemanuplation'
+import Statehandling from './component/statehandling'
+// import Student from './component/student'
+function App() {
   const student = [{
-    name:"Dheeraj Singh", 
-    branch :"CSE AIML" ,
-    sec : "B" ,
-    roll : "2300321530068" ,
-    college : "ABES Engineering college",
+    name: "Dheeraj Singh",
+    branch: "CSE AIML",
+    sec: "B",
+    roll: "2300321530068",
+    college: "ABES Engineering college",
     img: "https://www.shutterstock.com/image-vector/man-character-face-avatar-glasses-260nw-562077406.jpg"
   },
   {
-     name:"Dheeraj Singh", 
-    branch :"CSE AIML" ,
-    sec : "B" ,
-    roll : "2300321530068" ,
-    college : "ABES Engineering college",
+    name: "Dheeraj Singh",
+    branch: "CSE AIML",
+    sec: "B",
+    roll: "2300321530068",
+    college: "ABES Engineering college",
     img: "https://www.shutterstock.com/image-vector/man-character-face-avatar-glasses-260nw-562077406.jpg",
   },
-    { name:"Dheeraj Singh", 
-    branch :"CSE AIML" ,
-    sec : "B" ,
-    roll : "2300321530068" ,
-    college : "ABES Engineering college",
+  {
+    name: "Dheeraj Singh",
+    branch: "CSE AIML",
+    sec: "B",
+    roll: "2300321530068",
+    college: "ABES Engineering college",
     img: "https://www.shutterstock.com/image-vector/man-character-face-avatar-glasses-260nw-562077406.jpg"
   }
-]
-  
+  ]
+
   return (
-    <div>
-    {/* <Student name="Dheeraj" branch = "CSE AIML" sec = "B" roll = "2300321530068" college = "ABES Engineering college"/> */}
-    {/* <Student data ={Student[2]} /> */}
-    <div/>
-    {
-      student.map((ele,index)=>(
-        <Student data={ele} key={index}/>
-      ))
-    }
-    </div>
+    // // <div>
+    // // {/* <Student name="Dheeraj" branch = "CSE AIML" sec = "B" roll = "2300321530068" college = "ABES Engineering college"/> */}
+    // // {/* <Student data ={Student[2]} /> */}
+    // // <div/>
+    // {/* {
+    //   student.map((ele,index)=>(
+    //     <Student data={ele} key={index}/>
+    //   ))
+    // } */}
+    // // <div>
+    // //   <Statehandling />
+    // //   </div>
+    <>
+      {/* <Statehandling /> */}
+      <ImageManipulation />
+    </>
+  
+
   )
 }
 export default App
