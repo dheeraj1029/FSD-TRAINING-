@@ -10,7 +10,7 @@ const ul=React.createElement('ul',{style:{backgroundColor:'cyan'}},li1,li2,li3);
 const pic=React.createElement('img',{src:'https://www.flexjobs.com/blog/wp-content/uploads/2022/06/07130847/How-to-Put-Your-Work-Samples-Online.jpg', style:{height:'200px', width:'200px', borderRadius:'50%'}});
 const myname=React.createElement('h1',{},"Vansh Tomar");
 const header=React.createElement('div',{style:{display:'flex',gap:'200px'}},pic,myname);
-const wrapper=React.createElement("div",{},h2,header,ul);+
+const wrapper=React.createElement("div",{},h2,header,ul);
 
 //jsx
 const h21=<h2>Hi, I m using JSX</h2>;

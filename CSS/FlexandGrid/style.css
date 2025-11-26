@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    border: 1px solid red;
+    background-color: cadetblue;
+}
+.child1{
+ border: 1px dotted chartreuse ;
+    background-color:black;
+    height: 400px;
+    width: 300px;
+     order:4;
+}
+.child2{
+ border: 1px dotted red ;
+    background-color: brown;
+     height: 400px;
+    width: 300px;
+}
+.child3{
+ border: 1px dotted chartreuse ;
+    background-color:azure;
+    height: 400px;
+    width: 300px;
+}
+.child4{
+ border: 1px dotted chartreuse ;
+    background-color: cadetblue;
+     height: 400px;
+    width: 300px;
+}
